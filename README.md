@@ -5,7 +5,7 @@ This repository contains the code written by Aleksandra Jacewicz, Alyssa Rodrigu
 ### Data Processing & Feature Engineering
 We pre-processed around 50k data instances as part of this project. In doing so, we replaced missing data with average values (for ‘dislikes’ and ‘comments’, on a channel basis when possible), combined data tables to have access to a full representitive dataset, removed exact duplicates in dataset (≈ 160), extracted information from time based columns (‘publishedAt’, ‘trending_date’) and taking difference between them to be able to do per day based calculations for numeric columns and did one hot encoding for relevant columns (ex. categoryID -> Film & Animation, News & Politics, etc). 
 
-We also processed text based data to allow for natural language processing to take place and then persued that. This included cleanin, tokenization, building vocabulary, training embeddings and getting vectorized results.
+We also processed text based data to allow for natural language processing to take place and then persued that. This included cleaning, tokenization, building vocabulary, training embeddings and getting vectorized results.
 
 ### Models and Results 
 We built several models across the course of this project, with every member of our team taking on a different model. We've uploaded our final project presentation here, so feel free to look at it to find out more! As a general overview:
