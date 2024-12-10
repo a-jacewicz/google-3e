@@ -14,6 +14,7 @@ We built several models across the course of this project, with every member of 
 
     The code used while doing so can be found at [`Model_Development/Neural_Network.ipynb`](https://github.com/a-jacewicz/google-3e/blob/main/Model_Development/Neural_Network.ipynb)
 
+- Alyssa worked on building a [decision tree model](https://github.com/a-jacewicz/youtube-viral-video-forecasting/blob/main/Model_Development/Decision_Tree.ipynb), and was able to get an MSE of 0.3107.
 
 ### Dataset 
 We used the [Youtube Trending Video Dataset](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset/data), and specifically the `US_category_id.json` and `US_Youtube_trending_data.csv` files found in it while training our models. 
